@@ -8,7 +8,10 @@ It autoplays when user touches the screen.
  ## How to use it in your project
 
  * #### For ESM
+ ```javascript
+ npm add autoplay-bgm --save
  
+ ```
 ```javascript
 import AutoplayBgm from 'autoplay-bgm'
 
