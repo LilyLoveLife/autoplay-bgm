@@ -2,8 +2,8 @@
 Autoplay background music for h5.
 
  ## scope
-It autoplays when user touch the screen.
-<br>For WeiXin on ios, it can autoplay bgm without any touch.
+It autoplays when user touches the screen.
+<br>For WeiXin on ios, it would autoplay bgm without any touch.
 
  ## How to use it in your project
 
