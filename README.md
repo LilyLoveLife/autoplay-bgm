@@ -4,7 +4,7 @@ Autoplay background music for h5
 ```javascript
 import AutoplayBgm from 'autoplay-bgm'
 
-const autoplay = new AutoplayBgm(bgmStr) // init, autoplay bgm
+const autoplay = new AutoplayBgm(bgmStr) // init, and autoplay bgm
 
 autoplay.stop() // stop bgm
 
