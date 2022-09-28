@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>测试</title>
+    </head>
+    <body>
+        <div>测试测试</div>
+        <!-- <script type="text/javascript" src="bundle.iife.js">
+        </script>
+        <script type="text/javascript" src="bundle.umd.js">
+        </script>
+        <script type="text/javascript">
+            console.log(window.bundle.iife.js)
+            console.log(window.bundle.umd.js)
+        </script> -->
+        
+        <script type="module" async>
+            import AutoPlay from '/bundle.esm.js'
+            var audio = new AutoPlay('/testAudio.mp3')
+            window.audio = new AutoPlay('/testAudio.mp3')
+            window.stop = function  () {
+                console.log('～111～')
+                window.audio.stop()
+            }
+            window.replay = () => {
+                console.log('～222～')
+                audio.replay()
+            }
+            const str1 = '<button id="stop" type="button" onclick=\"stop()\">停止</button>'
+            const str2 = '<button type="button" onclick="replay()">重新播放</button>'
+            var btnsWrap = document.createElement('div')
+            btnsWrap.innerHTML = str1 + str2
+            document.body.appendChild(btnsWrap)                
+        </script>
+    </body>
+</html>

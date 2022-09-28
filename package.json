@@ -1,0 +1,41 @@
+{
+  "name": "autoplay-bgm",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LilyLoveLife/autoplay-bgm"
+  },
+  "homepage": "https://github.com/LilyLoveLife/autoplay-bgm",
+  "main": "lib/index.js",
+  "types": "lib/src/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.prod.js",
+    "build:dev": "rollup --config rollup.config.dev.js",
+    "start": "npm run build:dev -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autoplay",
+    "autoplay-bgm",
+    "bgm",
+    "background music",
+    "h5",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@rollup/plugin-babel": "^5.3.1",
+    "path": "^0.12.7",
+    "rollup": "^2.79.0",
+    "rollup-plugin-serve": "^2.0.1",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "typescript": "^4.8.3"
+  }
+}
