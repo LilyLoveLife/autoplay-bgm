@@ -1,17 +1,18 @@
 # autoplay-bgm
 Autoplay background music for h5.
 
- ## scope
+ ## Scope
 It autoplays when user touches the screen.
 <br>For WeiXin on ios, it would autoplay bgm without any touch.
 
- ## How to use it in your project
-
- * #### For ESM
- ```javascript
+ ## Installation
+```javascript
  npm add autoplay-bgm --save
  
  ```
+ ## Usage
+
+ * #### For ESM
 ```javascript
 import AutoplayBgm from 'autoplay-bgm'
 
