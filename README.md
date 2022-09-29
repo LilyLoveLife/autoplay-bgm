@@ -27,7 +27,7 @@ autoplay.play() // replay bgm
    * #### For <script>
   ```javascript
   <script type="module" async>
-        import AutoPlay from '/bundle.esm.js'
+        import AutoPlay from 'autoplay-bgm'
         var audio = new AutoPlay('/testAudio.mp3')
         window.audio = new AutoPlay('/testAudio.mp3')
         window.stop = function  () {
